@@ -59,12 +59,5 @@ http://localhost:3000
 5. Participants compete in real time
 6. Winners are ranked on the leaderboard
 
-## 📸 Screenshots
 
-* Landing Page
-* Quiz Generator
-* Arena Dashboard
-* Student Interface
-* Live Leaderboard
-* Final Podium
 
