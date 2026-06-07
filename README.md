@@ -8,10 +8,10 @@ AI-powered real-time multiplayer quiz battle platform for classrooms, workshops,
 * ⚔️ Create real-time battle arenas
 * 👨‍🏫 Mentor dashboard for hosting sessions
 * 👨‍🎓 Students join using a room code
-* 🚨 First-to-buzz answering system
-* 🔒 Only the participant who buzzes first can answer the question while others are temporarily locked
+* 🚨 First-to-buzz gameplay system
+* 🔒 Only the participant who buzzes first can view and answer the question while all other participants remain locked
 * 📊 Live leaderboard and scoring
-* 🏆 Final podium and achievements
+* 🏆 Final podium and achievement badges
 * 📱 Progressive Web App (PWA)
 * 🔄 Real-time synchronization with Supabase
 
@@ -24,23 +24,34 @@ AI-powered real-time multiplayer quiz battle platform for classrooms, workshops,
 * Supabase Realtime
 * Google Gemini AI
 
-## 🚀 Getting Started
+## 📦 Installation
 
-### Install
+Clone the repository:
+
+```bash
+git clone https://github.com/Hyma241/BuzzNexus.git
+cd BuzzNexus
+```
+
+Install dependencies:
 
 ```bash
 npm install
 ```
 
-### Configure Environment
+## ⚙️ Environment Setup
+
+Create a `.env.local` file in the project root:
 
 ```env
-NEXT_PUBLIC_SUPABASE_URL=
-NEXT_PUBLIC_SUPABASE_ANON_KEY=
-GEMINI_API_KEY=
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+GEMINI_API_KEY=your_gemini_api_key
 ```
 
-### Run
+## 🚀 Run Locally
+
+Start the development server:
 
 ```bash
 npm run dev
@@ -56,15 +67,16 @@ http://localhost:3000
 
 1. Mentor uploads study material
 2. AI generates quiz questions
-3. Create a battle arena
+3. Mentor creates a battle arena
 4. Students join using a room code
-5. A countdown begins for each question
-6. Participants race to buzz first
-7. The fastest participant gets exclusive access to answer the question
-8. Other participants are temporarily locked until the response is evaluated
-9. Points are awarded based on correctness and configured scoring rules
-10. Live standings update in real time
-11. Winners are ranked on the final leaderboard and podium
+5. Participants race to buzz first
+6. The fastest participant gains exclusive access to answer
+7. Other participants remain locked until evaluation
+8. Scores update in real time
+9. Winners are ranked on the leaderboard and final podium
 
-```
-```
+## 📸 Screenshots
+
+Screenshots are available in the `/screenshots` directory.
+
+
